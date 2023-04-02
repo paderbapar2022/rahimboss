@@ -33,7 +33,7 @@ import requests, os, re, bs4,platform, sys, json, time, random, datetime, subpro
 from concurrent.futures import ThreadPoolExecutor as ahmadAXI
 from datetime import datetime
 from bs4 import BeautifulSoup
-#os.system('xdg-open https://facebook.com/groups/551365756758487/')
+os.system('xdg-open https://facebook.com/groups/551365756758487/')
 def ALEX():
     os.system('clear')
     jalan(logo)
@@ -47,13 +47,13 @@ def ALEX():
     if opt == 'A':
         main()
     if None == 'B':
-        #os.system('xdg-open https://www.facebook.com/copy.link.erorr404')
+        os.system('xdg-open https://www.facebook.com/copy.link.erorr404')
         return None
     if None == 'C':
-        #os.system('xdg-open https://github.com/Rahim')
+        os.system('xdg-open https://github.com/Rahim')
         return None
     if None == 'D':
-        #os.system('xdg-open https://facebook.com/groups/55135756758487/')
+        os.system('xdg-open https://facebook.com/groups/55135756758487/')
     if None == 'E':
         os.system('exit')
         return None
